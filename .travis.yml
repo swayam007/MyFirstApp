@@ -1,6 +1,5 @@
 language: objective-c
 xcode_project: MyFirstApp.xcodeproj # path to your xcodeproj folder
-xcode_scheme: MyFirstApp
-
+xcode_scheme: MyFirstApp 
 script:
-  - xcodebuild [DEFAULT_OPTIONS] CODE_SIGNING_REQUIRED=NO
+  - xcodebuild  CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
